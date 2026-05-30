@@ -1,0 +1,36 @@
+body{
+    text-align:center;
+    font-family:Arial;
+}
+
+.ambiente{
+    width:45%;
+    height:250px;
+    border:3px solid black;
+    display:inline-block;
+    margin:10px;
+    position:relative;
+}
+
+#fogo{
+    background:red;
+}
+
+#agua{
+    background:deepskyblue;
+}
+
+#terra{
+    background:limegreen;
+}
+
+#vento{
+    background:lightgray;
+}
+
+.ponto{
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    position:absolute;
+}
